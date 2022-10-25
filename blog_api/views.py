@@ -30,4 +30,4 @@ Used for read or update endpoints to represent a single model instance.
 #RetrieveDestroyAPIView
 Used for read or delete endpoints to represent a single model instance.
 #RetrieveUpdateDestroyAPIView
-Used for read-write-delete endpoints to represent a single model instance.
+Used for read-write-delete endpoints to represent a single model instance."""
