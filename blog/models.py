@@ -7,7 +7,7 @@ from django.utils import timezone
 class Category(models.Model):
     name = models.CharField(max_length=100)
 
-    def _str_(self):
+    def __str__(self):
         return self.name
 
 class Post(models.Model):
@@ -41,5 +41,5 @@ class Post(models.Model):
     class Meta:
         ordering = ('-published',)
 
-    def _str_(self):
+    def __str__(self):
         return self.title

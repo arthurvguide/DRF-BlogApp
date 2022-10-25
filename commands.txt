@@ -8,3 +8,5 @@ coverage run --omit='*/venv/*' manage.py test
 coverage html
 pip install djangorestframework
 python --version
+
+https://youtu.be/soxd_xdHR0o?t=4340
