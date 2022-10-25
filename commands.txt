@@ -1,5 +1,6 @@
 py manage.py makemigrations --dry-run --verbosity 3
 py manage.py migrate
+pip install django==3.2
 py manage.py runserver
 py manage.py createsuperuser 
 pip install coverage
